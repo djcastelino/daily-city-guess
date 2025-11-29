@@ -10,7 +10,7 @@
 .mystery-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #0d9488; /* Emerald Teal */
+  color: #0f766e; /* Darker Emerald Teal */
   text-align: center;
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
@@ -44,7 +44,7 @@
 
 .clue-number {
   font-weight: bold;
-  color: #14b8a6; /* Lighter Teal */
+  color: #0d9488; /* Emerald Teal */
   margin-right: 0.75rem;
   min-width: 25px;
   text-align: right;

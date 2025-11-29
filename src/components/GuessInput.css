@@ -19,8 +19,8 @@
 }
 
 .guess-input:focus {
-  border-color: #14b8a6; /* Lighter Teal */
-  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.2);
+  border-color: #0d9488; /* Emerald Teal */
+  box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.2);
 }
 
 .guess-input::placeholder {
@@ -59,7 +59,7 @@
 }
 
 .suggestion-item:hover {
-  background-color: #d1fae5; /* Light teal hover */
+  background-color: #99f6e4; /* Teal hover */
 }
 
 .suggestion-item:last-child {

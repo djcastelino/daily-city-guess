@@ -13,7 +13,7 @@ body {
 
 .app {
   min-height: 100vh;
-  background: linear-gradient(to bottom, #d1fae5 0%, #a7f3d0 100%); /* Light teal gradient */
+  background: linear-gradient(to bottom, #a7f3d0 0%, #6ee7b7 100%); /* Darker teal gradient */
 }
 
 .main-content {
@@ -29,7 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%); /* Emerald Teal gradient */
+  background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%); /* Darker Emerald Teal gradient */
   color: #fff;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .archive-game-complete button {
-  background: #0d9488;
+  background: #0f766e;
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -88,10 +88,10 @@ body {
 }
 
 .archive-game-complete .browse-archive {
-  background: #14b8a6;
+  background: #0d9488;
 }
 
 .archive-game-complete .browse-archive:hover {
-  background: #0d9488;
+  background: #0f766e;
 }
 

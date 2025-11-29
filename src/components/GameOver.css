@@ -61,7 +61,7 @@
 .city-name {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #0d9488; /* Emerald Teal */
+  color: #0f766e; /* Darker Emerald Teal */
   text-align: center;
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
@@ -73,8 +73,8 @@
 }
 
 .fun-fact-section {
-  background: #d1fae5; /* Light teal for fun fact */
-  border-left: 4px solid #14b8a6; /* Lighter teal border */
+  background: #99f6e4; /* Teal for fun fact */
+  border-left: 4px solid #0d9488; /* Emerald teal border */
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 8px;
@@ -83,7 +83,7 @@
 .fun-fact-section h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
-  color: #0d9488; /* Emerald Teal */
+  color: #0f766e; /* Darker Emerald Teal */
 }
 
 .fun-fact-text {
@@ -101,7 +101,7 @@
 }
 
 .fun-fact-source a {
-  color: #14b8a6; /* Lighter teal link */
+  color: #0d9488; /* Emerald teal link */
   text-decoration: none;
   font-weight: 500;
 }
@@ -131,7 +131,7 @@
 }
 
 .share-button {
-  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%); /* Emerald Teal gradient */
+  background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%); /* Darker Emerald Teal gradient */
   color: white;
   border: none;
   padding: 1rem 1.5rem;
@@ -148,7 +148,7 @@
 }
 
 .share-button:hover {
-  background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+  background: linear-gradient(135deg, #0f766e 0%, #115e59 100%);
   transform: translateY(-2px);
 }
 
@@ -161,9 +161,9 @@
 .stats-button,
 .archive-button {
   flex: 1;
-  background: #d1fae5; /* Light teal */
-  color: #0d9488; /* Emerald Teal */
-  border: 2px solid #0d9488;
+  background: #99f6e4; /* Teal */
+  color: #0f766e; /* Darker Emerald Teal */
+  border: 2px solid #0f766e;
   padding: 0.8rem 1rem;
   border-radius: 10px;
   font-size: 1rem;
@@ -178,7 +178,7 @@
 
 .stats-button:hover,
 .archive-button:hover {
-  background: #99f6e4; /* Lighter teal hover */
+  background: #5eead4; /* Lighter teal hover */
   transform: translateY(-2px);
 }
 

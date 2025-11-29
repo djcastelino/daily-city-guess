@@ -36,7 +36,7 @@
 .stats-header h2 {
   margin: 0;
   font-size: 1.5rem;
-  color: #0d9488; /* Emerald Teal */
+  color: #0f766e; /* Darker Emerald Teal */
 }
 
 .stats-close-btn {
@@ -76,7 +76,7 @@
 .stat-value {
   font-size: 2rem;
   font-weight: 700;
-  color: #0d9488; /* Emerald Teal */
+  color: #0f766e; /* Darker Emerald Teal */
   line-height: 1.2;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .bar {
-  background: #14b8a6; /* Lighter Teal */
+  background: #0d9488; /* Emerald Teal */
   height: 100%;
   border-radius: 4px;
   transition: width 0.5s ease-out;
@@ -151,7 +151,7 @@
 }
 
 .stats-close-btn-bottom {
-  background: #0d9488; /* Emerald Teal */
+  background: #0f766e; /* Darker Emerald Teal */
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -165,7 +165,7 @@
 }
 
 .stats-close-btn-bottom:hover {
-  background: #0f766e;
+  background: #115e59;
 }
 
 @media (max-width: 600px) {
