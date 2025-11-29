@@ -19,8 +19,8 @@
 }
 
 .guess-input:focus {
-  border-color: #0ea5e9; /* Bright Blue */
-  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2);
+  border-color: #a855f7; /* Bright Purple */
+  box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.2);
 }
 
 .guess-input::placeholder {
@@ -59,7 +59,7 @@
 }
 
 .suggestion-item:hover {
-  background-color: #bae6fd; /* Light blue hover */
+  background-color: #e9d5ff; /* Light purple hover */
 }
 
 .suggestion-item:last-child {

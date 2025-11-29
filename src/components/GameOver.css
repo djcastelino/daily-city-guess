@@ -61,7 +61,7 @@
 .city-name {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #0284c7; /* Ocean Blue */
+  color: #9333ea; /* Royal Purple */
   text-align: center;
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
@@ -73,8 +73,8 @@
 }
 
 .fun-fact-section {
-  background: #bae6fd; /* Light blue for fun fact */
-  border-left: 4px solid #0ea5e9; /* Bright blue border */
+  background: #e9d5ff; /* Light purple for fun fact */
+  border-left: 4px solid #a855f7; /* Bright purple border */
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 8px;
@@ -83,7 +83,7 @@
 .fun-fact-section h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
-  color: #0284c7; /* Ocean Blue */
+  color: #9333ea; /* Royal Purple */
 }
 
 .fun-fact-text {
@@ -101,7 +101,7 @@
 }
 
 .fun-fact-source a {
-  color: #0ea5e9; /* Bright blue link */
+  color: #a855f7; /* Bright purple link */
   text-decoration: none;
   font-weight: 500;
 }
@@ -131,7 +131,7 @@
 }
 
 .share-button {
-  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%); /* Ocean Blue gradient */
+  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%); /* Royal Purple gradient */
   color: white;
   border: none;
   padding: 1rem 1.5rem;
@@ -148,7 +148,7 @@
 }
 
 .share-button:hover {
-  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+  background: linear-gradient(135deg, #9333ea 0%, #7c3aed 100%);
   transform: translateY(-2px);
 }
 
@@ -161,9 +161,9 @@
 .stats-button,
 .archive-button {
   flex: 1;
-  background: #bae6fd; /* Light blue */
-  color: #0284c7; /* Ocean Blue */
-  border: 2px solid #0284c7;
+  background: #e9d5ff; /* Light purple */
+  color: #9333ea; /* Royal Purple */
+  border: 2px solid #9333ea;
   padding: 0.8rem 1rem;
   border-radius: 10px;
   font-size: 1rem;
@@ -178,7 +178,7 @@
 
 .stats-button:hover,
 .archive-button:hover {
-  background: #7dd3fc; /* Brighter blue hover */
+  background: #d8b4fe; /* Brighter purple hover */
   transform: translateY(-2px);
 }
 

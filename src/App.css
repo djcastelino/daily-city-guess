@@ -13,7 +13,7 @@ body {
 
 .app {
   min-height: 100vh;
-  background: linear-gradient(to bottom, #bae6fd 0%, #7dd3fc 100%); /* Light blue gradient */
+  background: linear-gradient(to bottom, #e9d5ff 0%, #d8b4fe 100%); /* Light purple gradient */
 }
 
 .main-content {
@@ -29,7 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%); /* Ocean Blue gradient */
+  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%); /* Royal Purple gradient */
   color: #fff;
 }
 
@@ -56,7 +56,7 @@ body {
 
 .archive-game-complete {
   background: linear-gradient(135deg, #ccfbf1 0%, #99f6e4 100%); /* Light teal for archive complete */
-  color: #0284c7;
+  color: #9333ea;
   padding: 1.5rem;
   text-align: center;
   border-radius: 12px;
@@ -71,7 +71,7 @@ body {
 }
 
 .archive-game-complete button {
-  background: #0284c7;
+  background: #9333ea;
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -84,14 +84,14 @@ body {
 }
 
 .archive-game-complete button:hover {
-  background: #0369a1;
+  background: #7c3aed;
 }
 
 .archive-game-complete .browse-archive {
-  background: #0ea5e9;
+  background: #a855f7;
 }
 
 .archive-game-complete .browse-archive:hover {
-  background: #0284c7;
+  background: #9333ea;
 }
 

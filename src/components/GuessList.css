@@ -35,9 +35,9 @@
 }
 
 .guess-item.correct {
-  background: #bae6fd; /* Light blue for correct */
-  border-color: #0284c7;
-  color: #075985;
+  background: #e9d5ff; /* Light purple for correct */
+  border-color: #9333ea;
+  color: #6b21a8;
   font-weight: 500;
 }
 

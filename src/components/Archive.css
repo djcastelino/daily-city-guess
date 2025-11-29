@@ -34,7 +34,7 @@
 .archive-header h2 {
   margin: 0;
   font-size: 1.5rem;
-  color: #0284c7; /* Ocean Blue */
+  color: #9333ea; /* Royal Purple */
 }
 
 .archive-close {
@@ -60,9 +60,9 @@
 
 .archive-info {
   padding: 15px 20px;
-  background: #bae6fd; /* Light blue for info */
-  border-bottom: 1px solid #7dd3fc;
-  color: #0284c7; /* Ocean Blue */
+  background: #e9d5ff; /* Light purple for info */
+  border-bottom: 1px solid #d8b4fe;
+  color: #9333ea; /* Royal Purple */
   font-size: 0.9rem;
   text-align: center;
 }
@@ -87,7 +87,7 @@
 }
 
 .archive-item:hover {
-  border-color: #0ea5e9; /* Bright Blue */
+  border-color: #a855f7; /* Bright Purple */
   background: #f0fdfa;
   transform: translateX(5px);
 }
@@ -98,7 +98,7 @@
 
 .archive-item-number {
   font-weight: bold;
-  color: #0284c7; /* Ocean Blue */
+  color: #9333ea; /* Royal Purple */
   min-width: 80px;
   font-size: 0.9rem;
 }

@@ -10,7 +10,7 @@
 .mystery-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #0284c7; /* Ocean Blue */
+  color: #9333ea; /* Royal Purple */
   text-align: center;
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
@@ -44,7 +44,7 @@
 
 .clue-number {
   font-weight: bold;
-  color: #0ea5e9; /* Bright Blue */
+  color: #a855f7; /* Bright Purple */
   margin-right: 0.75rem;
   min-width: 25px;
   text-align: right;
