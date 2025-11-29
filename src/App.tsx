@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import type { GameState } from './types';
+import type { GameState, City } from './types';
 import { getDailyCity, loadGameState, saveGameState, isNewDay, updateStats, getPuzzleNumber, saveArchivePuzzleState } from './utils/storage';
 import Header from './components/Header';
 import ClueDisplay from './components/ClueDisplay';
@@ -8,11 +8,13 @@ import GuessList from './components/GuessList';
 import GameOver from './components/GameOver';
 import Stats from './components/Stats';
 import Archive from './components/Archive';
+import TestMode from './components/TestMode';
 import './App.css';
 
 const MAX_GUESSES = 6;
 
 function App() {
+  const [isTestMode, setIsTestMode] = useState(false);
   const [gameState, setGameState] = useState<GameState>({
     targetCity: null,
     guesses: [],
@@ -32,6 +34,15 @@ function App() {
   const [archivePuzzleNumber, setArchivePuzzleNumber] = useState<number | null>(null);
 
   useEffect(() => {
+    // Check for test mode in URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const testParam = urlParams.get('test');
+    if (testParam === 'true') {
+      setIsTestMode(true);
+      setLoading(false);
+      return;
+    }
+    
     initGame();
   }, []);
 
@@ -125,6 +136,29 @@ function App() {
         <div className="spinner"></div>
         <p>Loading Daily City Guess...</p>
       </div>
+    );
+  }
+
+  // Test Mode
+  if (isTestMode) {
+    return (
+      <TestMode 
+        onSelectCity={(city: City) => {
+          setIsTestMode(false);
+          setGameState({
+            targetCity: city,
+            guesses: [],
+            isComplete: false,
+            isWon: false,
+            currentStreak: 0,
+            maxStreak: 0,
+            gamesPlayed: 0,
+            gamesWon: 0,
+            lastPlayedDate: new Date().toISOString().split('T')[0],
+            guessDistribution: {},
+          });
+        }}
+      />
     );
   }
 

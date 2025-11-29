@@ -1,0 +1,222 @@
+.test-mode {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+}
+
+.test-mode-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.test-mode-header h1 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.test-mode-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+}
+
+.test-mode-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9333ea;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.test-mode-filters {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.filter-btn.active {
+  background: #9333ea;
+  border-color: #9333ea;
+  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.4);
+}
+
+.test-mode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto 2rem;
+}
+
+.test-city-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.test-city-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(147, 51, 234, 0.3);
+}
+
+.test-city-card.difficulty-easy {
+  border-color: #10b981;
+}
+
+.test-city-card.difficulty-medium {
+  border-color: #f59e0b;
+}
+
+.test-city-card.difficulty-hard {
+  border-color: #ef4444;
+}
+
+.test-city-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.test-city-id {
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.test-city-difficulty {
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.test-city-difficulty.easy {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.test-city-difficulty.medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.test-city-difficulty.hard {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.test-city-name {
+  font-size: 1.3rem;
+  color: #1e1b4b;
+  margin-bottom: 0.5rem;
+}
+
+.test-city-info {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.test-city-water {
+  color: #0284c7;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.test-play-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #9333ea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.test-play-btn:hover {
+  background: #7e22ce;
+  transform: scale(1.02);
+}
+
+.test-mode-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.test-mode-footer p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .test-mode {
+    padding: 1rem 0.5rem;
+  }
+
+  .test-mode-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .test-mode-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+}
+
