@@ -1,9 +1,8 @@
-import { getStats, getPuzzleNumber } from '../utils/storage';
+import { getStats } from '../utils/storage';
 import './Header.css';
 
 export default function Header() {
   const stats = getStats();
-  const puzzleNumber = getPuzzleNumber();
 
   return (
     <header className="header">
@@ -13,11 +12,6 @@ export default function Header() {
             🌍 DAILY CITY GUESS
           </h1>
           <p className="subtitle">Daily Geography Challenge</p>
-          <div className="puzzle-info">
-            <span className="puzzle-number">
-              # {puzzleNumber}
-            </span>
-          </div>
           {stats.currentStreak > 0 && (
             <div className="streak">
               🔥 {stats.currentStreak} day streak
