@@ -2214,11 +2214,11 @@ export const CITIES: City[] = [
     difficulty: "hard",
     clues: [
       "Alpine city in the Austrian Tyrol surrounded by mountains",
-      "Located on the Inn River in a valley of the Alps",
+      "Located on a major river in a valley of the Alps",
       "Hosted Winter Olympics twice (1964, 1976)",
-      "Inn River runs through this mountain city",
-      "Austrian Alpine capital with golden roof landmark",
-      "Innsbruck on the Inn River - Alpine sports capital"
+      "Historic Austrian city with world-class ski jumping facilities",
+      "Alpine capital famous for Golden Roof landmark",
+      "Tyrolean city on a river - hosted Winter Olympics twice"
     ],
     waterFeature: "Inn River",
     population: "133,000 (300,000 metro)",
