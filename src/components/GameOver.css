@@ -1,0 +1,218 @@
+.game-over {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  border: 1px solid #e0e0e0;
+}
+
+.result-banner-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.result-banner {
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.result-banner.won {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%); /* Green for won */
+}
+
+.result-banner.lost {
+  background: linear-gradient(135deg, #f87171 0%, #ef4444 100%); /* Red for lost */
+}
+
+.result-icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.result-title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.result-subtitle {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.city-info-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  border: 1px solid #e0e0e0;
+}
+
+.city-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d9488; /* Emerald Teal */
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.fun-fact-section {
+  background: #d1fae5; /* Light teal for fun fact */
+  border-left: 4px solid #14b8a6; /* Lighter teal border */
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.fun-fact-section h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  color: #0d9488; /* Emerald Teal */
+}
+
+.fun-fact-text {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.fun-fact-source {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #666;
+  margin-top: 0.75rem !important;
+}
+
+.fun-fact-source a {
+  color: #14b8a6; /* Lighter teal link */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.fun-fact-source a:hover {
+  text-decoration: underline;
+}
+
+.city-details {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #e0e0e0;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.city-details strong {
+  color: #333;
+}
+
+.action-buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.share-button {
+  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%); /* Emerald Teal gradient */
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.share-button:hover {
+  background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+  transform: translateY(-2px);
+}
+
+.secondary-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.stats-button,
+.archive-button {
+  flex: 1;
+  background: #d1fae5; /* Light teal */
+  color: #0d9488; /* Emerald Teal */
+  border: 2px solid #0d9488;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.stats-button:hover,
+.archive-button:hover {
+  background: #99f6e4; /* Lighter teal hover */
+  transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+  .game-over {
+    padding: 1.5rem;
+  }
+
+  .result-title {
+    font-size: 1.8rem;
+  }
+
+  .result-subtitle {
+    font-size: 1rem;
+  }
+
+  .city-name {
+    font-size: 1.5rem;
+  }
+
+  .share-button {
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .secondary-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .stats-button,
+  .archive-button {
+    font-size: 0.95rem;
+    padding: 0.7rem 1rem;
+  }
+}
+

@@ -1,0 +1,65 @@
+.guess-list {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+  border: 1px solid #e0e0e0;
+}
+
+.guess-list-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.guesses {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.guess-item {
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  background: #f8f8f8;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid #eee;
+}
+
+.guess-item.correct {
+  background: #d1fae5; /* Light teal for correct */
+  border-color: #0d9488;
+  color: #065f46;
+  font-weight: 500;
+}
+
+.remaining-guesses {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+@media (max-width: 480px) {
+  .guess-list {
+    padding: 1rem;
+  }
+
+  .guess-list-title {
+    font-size: 1.1rem;
+  }
+
+  .guess-item {
+    font-size: 0.9rem;
+    padding: 0.7rem 0.8rem;
+  }
+}
+
