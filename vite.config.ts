@@ -12,7 +12,7 @@ export default defineConfig({
         name: 'Daily City Guess - Daily Geography Challenge',
         short_name: 'CityGuess',
         description: 'Guess world cities from 6 progressive clues including water features. A new challenge every day!',
-        theme_color: '#0f766e', // Darker Emerald Teal
+        theme_color: '#0284c7', // Ocean Blue
         background_color: '#ffffff',
         display: 'standalone',
         icons: [
