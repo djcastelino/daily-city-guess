@@ -100,8 +100,8 @@ export const CITIES: City[] = [
       "Located on a large bay opening to the Pacific Ocean",
       "One of the world's most populous metropolitan areas with over 37 million people",
       "Famous for technology, anime, sumo wrestling, and Shibuya Crossing",
-      "Hosted Summer Olympics in 1964 and 2020, capital with Tokyo Bay waterfront",
-      "Japan's capital on Tokyo Bay with Mount Fuji visible on clear days"
+      "Hosted Summer Olympics in 1964 and 2020, island nation's capital with bay waterfront",
+      "Japanese capital on a major bay with Mount Fuji visible on clear days"
     ],
     waterFeature: "Tokyo Bay, Sumida River",
     population: "14 million (38M metro)",
@@ -123,7 +123,7 @@ export const CITIES: City[] = [
       "Famous for beaches, surfing culture, and a distinctive bridge",
       "Harbor features an iconic white shell-shaped opera house building",
       "Australia's largest city with Bondi Beach and Darling Harbour",
-      "Sydney Harbour with the Opera House and Harbour Bridge"
+      "Australian harbor city with iconic Opera House and Harbour Bridge"
     ],
     waterFeature: "Sydney Harbour, Pacific Ocean",
     population: "5.3 million",
@@ -145,7 +145,7 @@ export const CITIES: City[] = [
       "City of canals where gondolas and water taxis are the main transport",
       "Famous for St. Mark's Square, Rialto Bridge, and the Grand Canal",
       "Italian city known as 'La Serenissima' or 'The Floating City'",
-      "Venice - city built on 118 islands connected by 400+ bridges and canals"
+      "Historic Italian lagoon city built on 118 islands connected by 400+ bridges and canals"
     ],
     waterFeature: "Grand Canal, Venetian Lagoon, Adriatic Sea",
     population: "260,000 (city), 630,000 (metro)",
@@ -167,7 +167,7 @@ export const CITIES: City[] = [
       "Known for futuristic architecture and luxury shopping",
       "Home to the world's tallest building, the Burj Khalifa",
       "UAE's most populous city with Palm Jumeirah artificial islands",
-      "Dubai on the Persian Gulf with record-breaking skyscrapers"
+      "Gulf emirate city with record-breaking skyscrapers and luxury developments"
     ],
     waterFeature: "Dubai Creek, Persian Gulf",
     population: "3.6 million",
@@ -211,7 +211,7 @@ export const CITIES: City[] = [
       "City crisscrossed by over 100 kilometers of picturesque waterways",
       "Known for historic canal houses, tulips, and world-class museums",
       "Netherlands capital with concentric canal rings and 1,500+ bridges",
-      "Amsterdam - 'Venice of the North' with iconic canal belt"
+      "Dutch capital known as 'Venice of the North' with iconic canal belt"
     ],
     waterFeature: "Amsterdam Canal System, Amstel River, IJ River",
     population: "870,000 (2.4M metro)",
@@ -233,7 +233,7 @@ export const CITIES: City[] = [
       "Largest city in the Arab world with over 20 million in metro area",
       "Nearby pyramids and Sphinx stand near the Nile's west bank",
       "Egypt's capital known for Islamic architecture and bustling bazaars",
-      "Cairo on the Nile River, gateway to the Pyramids of Giza"
+      "Egyptian capital on the Nile River, gateway to the Pyramids of Giza"
     ],
     waterFeature: "Nile River",
     population: "10 million (22M metro)",
@@ -255,7 +255,7 @@ export const CITIES: City[] = [
       "Ultra-modern city known for strict laws and cleanliness",
       "Features Marina Bay with iconic boat-shaped hotel and Gardens by the Bay",
       "City-state with Changi Airport consistently rated world's best",
-      "Singapore on the Strait of Malacca with Marina Bay Sands"
+      "Island city-state on the Strait of Malacca with Marina Bay Sands"
     ],
     waterFeature: "Strait of Malacca, Singapore Strait, Marina Bay",
     population: "5.9 million",
@@ -277,7 +277,7 @@ export const CITIES: City[] = [
       "Former capital of Byzantine and Ottoman empires for over 1,500 years",
       "The Bosphorus waterway divides this city into European and Asian sides",
       "Turkey's largest city with Hagia Sophia, Blue Mosque, and Grand Bazaar",
-      "Istanbul where Europe meets Asia on the Bosphorus Strait"
+      "Turkish megacity where Europe meets Asia on the Bosphorus Strait"
     ],
     waterFeature: "Bosphorus Strait, Golden Horn, Sea of Marmara",
     population: "15.8 million",
@@ -299,7 +299,7 @@ export const CITIES: City[] = [
       "Famous for deep-dish pizza, jazz music, and distinctive skyscrapers",
       "The 'Windy City' on Lake Michigan with iconic Navy Pier",
       "Illinois' largest city with Willis Tower (formerly Sears Tower)",
-      "Chicago on Lake Michigan with iconic downtown skyline"
+      "Major US city on Lake Michigan with iconic downtown skyline"
     ],
     waterFeature: "Lake Michigan",
     population: "2.7 million (9.6M metro)",
@@ -319,9 +319,9 @@ export const CITIES: City[] = [
       "Massive coastal city in South Asia with tropical monsoon climate",
       "Built on seven islands in the Arabian Sea, later connected by land reclamation",
       "India's financial capital and home of Bollywood film industry",
-      "Gateway of India monument overlooks Mumbai Harbour and Arabian Sea",
+      "Gateway of India monument overlooks a major harbour and the Arabian Sea",
       "Formerly called Bombay - India's most populous city",
-      "Mumbai on India's western coast facing the Arabian Sea"
+      "Indian megacity on the western coast facing the Arabian Sea"
     ],
     waterFeature: "Arabian Sea, Mumbai Harbour",
     population: "12.5 million (21M metro)",
@@ -343,7 +343,7 @@ export const CITIES: City[] = [
       "Famous for cable cars, steep hills, and tech industry",
       "Iconic orange bridge spans the Golden Gate strait at the bay entrance",
       "Northern California city with Alcatraz Island in the bay",
-      "San Francisco on San Francisco Bay with the Golden Gate Bridge"
+      "California city on a bay with the Golden Gate Bridge"
     ],
     waterFeature: "San Francisco Bay, Pacific Ocean, Golden Gate",
     population: "870,000 (7.7M metro)",
@@ -365,7 +365,7 @@ export const CITIES: City[] = [
       "Center of the Roman Empire and home to Vatican City",
       "Features the Colosseum, Roman Forum, and Trevi Fountain near the Tiber",
       "Italy's capital known as the 'Eternal City' with incredible cuisine",
-      "Rome on the Tiber River with ancient ruins and Vatican City"
+      "Ancient Italian capital on the Tiber River with Vatican City"
     ],
     waterFeature: "Tiber River",
     population: "2.9 million (4.3M metro)",
@@ -387,7 +387,7 @@ export const CITIES: City[] = [
       "Home to an unfinished basilica designed by Antoni Gaudí",
       "Mediterranean port city with Las Ramblas boulevard and Gothic Quarter",
       "Capital of Catalonia region known for paella and tapas",
-      "Barcelona on the Mediterranean with the Sagrada Família"
+      "Catalan port city on the Mediterranean with the Sagrada Família"
     ],
     waterFeature: "Mediterranean Sea, Llobregat River",
     population: "1.6 million (5.6M metro)",
@@ -409,7 +409,7 @@ export const CITIES: City[] = [
       "Known for ornate temples, street food, and floating markets",
       "River and canal network earned it the nickname 'Venice of the East'",
       "Thailand's capital with the Grand Palace and Wat Pho temple",
-      "Bangkok on the Chao Phraya River with golden temples"
+      "Thai capital on the Chao Phraya River with golden temples"
     ],
     waterFeature: "Chao Phraya River, Gulf of Thailand",
     population: "11 million (16M metro)",
@@ -431,7 +431,7 @@ export const CITIES: City[] = [
       "Famous for cycling culture, hygge lifestyle, and colorful harbor",
       "Nyhavn canal district has iconic colorful 17th-century townhouses",
       "Denmark's capital with the Little Mermaid statue by the harbor",
-      "Copenhagen on the Øresund strait with Tivoli Gardens"
+      "Scandinavian capital on the Øresund strait with Tivoli Gardens"
     ],
     waterFeature: "Øresund Strait, Copenhagen Harbor",
     population: "640,000 (2M metro)",
@@ -453,7 +453,7 @@ export const CITIES: City[] = [
       "Famous for beaches, surfing culture, and a distinctive bridge",
       "Harbor features an iconic white shell-shaped opera house building",
       "Australia's largest city with Bondi Beach and Darling Harbour",
-      "Sydney Harbour with the Opera House and Harbour Bridge"
+      "Australian harbor city with iconic Opera House and Harbour Bridge"
     ],
     waterFeature: "Sydney Harbour, Pacific Ocean",
     population: "5.3 million",
@@ -497,7 +497,7 @@ export const CITIES: City[] = [
       "World's busiest container port and financial hub",
       "Famous Bund waterfront along the Huangpu River",
       "China's most populous city with futuristic skyline",
-      "Shanghai on the Huangpu River and East China Sea"
+      "Chinese megacity on the Huangpu River and East China Sea"
     ],
     waterFeature: "Huangpu River, Yangtze River, East China Sea",
     population: "24 million (29M metro)",
@@ -519,7 +519,7 @@ export const CITIES: City[] = [
       "Known for modern history, nightlife, and cultural diversity",
       "Historic Spree River flows through the city center",
       "German capital with Brandenburg Gate and Museum Island",
-      "Berlin on the Spree River with remnants of the Wall"
+      "German capital on the Spree River with remnants of the Wall"
     ],
     waterFeature: "Spree River, Havel River",
     population: "3.7 million (6M metro)",
@@ -541,7 +541,7 @@ export const CITIES: City[] = [
       "Historic capital known for colorful onion domes and Red Square",
       "Moskva River winds through the city past the Kremlin",
       "Russian capital with St. Basil's Cathedral and the Kremlin",
-      "Moscow on the Moskva River with Red Square"
+      "Russian capital on the Moskva River with Red Square and Kremlin"
     ],
     waterFeature: "Moskva River",
     population: "12.5 million (17M metro)",
@@ -563,7 +563,7 @@ export const CITIES: City[] = [
       "Known for art museums, royal palace, and lively plazas",
       "Manzanares River flows through the Casa de Campo park",
       "Spain's capital with the Prado Museum and Royal Palace",
-      "Madrid on the Manzanares River - Europe's highest capital"
+      "Spanish capital on the Manzanares River - Europe's highest capital"
     ],
     waterFeature: "Manzanares River",
     population: "3.3 million (6.7M metro)",
@@ -585,7 +585,7 @@ export const CITIES: City[] = [
       "Known for multiculturalism, CN Tower, and film industry",
       "Lake Ontario waterfront with islands and harbourfront",
       "Canada's most populous city with diverse neighborhoods",
-      "Toronto on Lake Ontario with CN Tower"
+      "Canadian city on Lake Ontario with CN Tower"
     ],
     waterFeature: "Lake Ontario",
     population: "2.9 million (6.4M metro)",
@@ -607,7 +607,7 @@ export const CITIES: City[] = [
       "Largest city in the Arab world with over 20 million in metro area",
       "Nearby pyramids and Sphinx stand near the Nile's west bank",
       "Egypt's capital known for Islamic architecture and bustling bazaars",
-      "Cairo on the Nile River, gateway to the Pyramids of Giza"
+      "Egyptian capital on the Nile River, gateway to the Pyramids of Giza"
     ],
     waterFeature: "Nile River",
     population: "10 million (22M metro)",
@@ -629,7 +629,7 @@ export const CITIES: City[] = [
       "Once the center of the Aztec Empire known as Tenochtitlan",
       "Lake Texcoco once surrounded the ancient city",
       "One of the world's largest cities with Aztec and Spanish heritage",
-      "Mexico City built on former Lake Texcoco"
+      "Massive Latin American capital built on former Lake Texcoco"
     ],
     waterFeature: "Lake Texcoco (historic), Xochimilco canals",
     population: "9.2 million (22M metro)",
@@ -651,7 +651,7 @@ export const CITIES: City[] = [
       "Served as capital for many empires over centuries",
       "Yamuna River flows through the city's eastern edge",
       "India's capital territory with Red Fort and Qutub Minar",
-      "Delhi on the Yamuna River - India's political center"
+      "Indian capital territory on the Yamuna River"
     ],
     waterFeature: "Yamuna River",
     population: "11 million (32M metro)",
@@ -695,7 +695,7 @@ export const CITIES: City[] = [
       "Known for chocolate, beer, waffles, and European politics",
       "Historic Senne River now mostly runs underground through tunnels",
       "Belgium's capital with Grand Place and Atomium",
-      "Brussels - capital of Europe on the Senne River"
+      "Belgian and EU capital on the Senne River"
     ],
     waterFeature: "Senne River, Brussels-Charleroi Canal",
     population: "1.2 million (2.1M metro)",
@@ -717,7 +717,7 @@ export const CITIES: City[] = [
       "Known for tango dancing, beef culture, and European-style architecture",
       "Called the 'Paris of South America' on the wide river estuary",
       "Argentina's capital with colorful La Boca neighborhood",
-      "Buenos Aires on the Río de la Plata estuary"
+      "Argentine capital on the Río de la Plata estuary"
     ],
     waterFeature: "Río de la Plata",
     population: "3 million (15M metro)",
@@ -737,9 +737,9 @@ export const CITIES: City[] = [
       "Massive coastal city in South Asia with tropical monsoon climate",
       "Built on seven islands in the Arabian Sea, later connected by land reclamation",
       "India's financial capital and home of Bollywood film industry",
-      "Gateway of India monument overlooks Mumbai Harbour and Arabian Sea",
+      "Gateway of India monument overlooks a major harbour and the Arabian Sea",
       "Formerly called Bombay - India's most populous city",
-      "Mumbai on India's western coast facing the Arabian Sea"
+      "Indian megacity on the western coast facing the Arabian Sea"
     ],
     waterFeature: "Arabian Sea, Mumbai Harbour",
     population: "12.5 million (21M metro)",
@@ -761,7 +761,7 @@ export const CITIES: City[] = [
       "Birthplace of democracy and Western civilization",
       "Acropolis and Parthenon overlook the city and nearby Saronic Gulf",
       "Greece's capital where philosophy, drama, and democracy began",
-      "Athens near the Aegean Sea with the ancient Acropolis"
+      "Greek capital near the Aegean Sea with the ancient Acropolis"
     ],
     waterFeature: "Aegean Sea, Saronic Gulf",
     population: "3.2 million (3.8M metro)",
@@ -783,7 +783,7 @@ export const CITIES: City[] = [
       "Oldest city in Western Europe, predating Rome by centuries",
       "Famous for pastel de nata pastries, fado music, and historic trams",
       "Portugal's capital with the Belém Tower on the Tagus estuary",
-      "Lisbon on the Tagus River estuary facing the Atlantic Ocean"
+      "Portuguese capital on the Tagus River estuary facing the Atlantic"
     ],
     waterFeature: "Tagus River, Atlantic Ocean",
     population: "550,000 (2.9M metro)",
@@ -801,11 +801,11 @@ export const CITIES: City[] = [
     difficulty: "easy",
     clues: [
       "Central European capital with imperial history and classical music",
-      "Sits on the Danube River in the Vienna Basin",
+      "Sits on the Danube River in a historic basin",
       "Former seat of the Habsburg Empire with grand palaces",
       "Known for coffee house culture, Sachertorte, and the Danube waltz",
       "Austria's capital ranked #1 for quality of life for years",
-      "Vienna on the Danube with Schönbrunn Palace"
+      "Austrian capital on the Danube with palaces and opera houses"
     ],
     waterFeature: "Danube River",
     population: "1.9 million (2.9M metro)",
@@ -826,8 +826,8 @@ export const CITIES: City[] = [
       "Built along the Vltava River with historic bridges",
       "Medieval old town with astronomical clock and Gothic architecture",
       "Charles Bridge spans the Vltava connecting castle to old town",
-      "Czech capital with Prague Castle overlooking the river",
-      "Prague on the Vltava River with Charles Bridge"
+      "Czech capital with a famous castle overlooking the river",
+      "Historic Central European capital on the Vltava River with Charles Bridge"
     ],
     waterFeature: "Vltava River",
     population: "1.3 million (2.7M metro)",
@@ -849,7 +849,7 @@ export const CITIES: City[] = [
       "Known for colorful historic buildings and excellent design",
       "Connected by 57 bridges spanning waterways throughout the city",
       "Sweden's capital where the Nobel Prize banquet is held annually",
-      "Stockholm - 'Venice of the North' on 14 islands"
+      "Scandinavian capital known as 'Venice of the North' on 14 islands"
     ],
     waterFeature: "Lake Mälaren, Baltic Sea, Stockholm Archipelago",
     population: "980,000 (2.4M metro)",
@@ -871,7 +871,7 @@ export const CITIES: City[] = [
       "Famous for cycling culture, hygge lifestyle, and colorful harbor",
       "Nyhavn canal district has iconic colorful 17th-century townhouses",
       "Denmark's capital with the Little Mermaid statue by the harbor",
-      "Copenhagen on the Øresund strait with Tivoli Gardens"
+      "Scandinavian capital on the Øresund strait with Tivoli Gardens"
     ],
     waterFeature: "Øresund Strait, Copenhagen Harbor",
     population: "640,000 (2M metro)",
@@ -889,11 +889,11 @@ export const CITIES: City[] = [
     difficulty: "easy",
     clues: [
       "Irish capital city on the east coast with mild, rainy climate",
-      "Built where the River Liffey meets Dublin Bay",
+      "Built where a river meets a bay on the Irish Sea",
       "Famous for literary heritage, Guinness, and friendly pubs",
       "Ha'penny Bridge crosses the Liffey in the city center",
       "Ireland's capital and birthplace of James Joyce and Oscar Wilde",
-      "Dublin on the River Liffey flowing into the Irish Sea"
+      "Irish capital on the River Liffey flowing into the Irish Sea"
     ],
     waterFeature: "River Liffey, Dublin Bay, Irish Sea",
     population: "555,000 (1.4M metro)",
@@ -915,7 +915,7 @@ export const CITIES: City[] = [
       "Known for ornate temples, street food, and floating markets",
       "River and canal network earned it 'Venice of the East' nickname",
       "Thailand's capital with the Grand Palace and Wat Pho temple",
-      "Bangkok on the Chao Phraya River with golden temples"
+      "Thai capital on the Chao Phraya River with golden temples"
     ],
     waterFeature: "Chao Phraya River, Gulf of Thailand",
     population: "11 million (16M metro)",
@@ -936,8 +936,8 @@ export const CITIES: City[] = [
       "Built along the Han River in a basin surrounded by mountains",
       "Known for K-pop, Korean BBQ, and ultra-fast internet",
       "Han River divides the city into northern and southern districts",
-      "South Korea's capital with Gangnam district and N Seoul Tower",
-      "Seoul on the Han River with palaces and skyscrapers"
+      "South Korea's capital with famous Gangnam district and tower",
+      "South Korean capital on the Han River with palaces and skyscrapers"
     ],
     waterFeature: "Han River",
     population: "9.7 million (26M metro)",
@@ -957,9 +957,9 @@ export const CITIES: City[] = [
       "Dense Asian city on the South China Sea coast",
       "Special Administrative Region built on islands and peninsulas",
       "One of the world's most vertical cities with iconic skyline",
-      "Victoria Harbour separates Hong Kong Island from Kowloon",
+      "Victoria Harbour separates the island from the Kowloon peninsula",
       "Former British colony known for dim sum and Star Ferry",
-      "Hong Kong on Victoria Harbour with dramatic skyline"
+      "Asian financial hub on Victoria Harbour with dramatic skyline"
     ],
     waterFeature: "Victoria Harbour, South China Sea",
     population: "7.5 million",
@@ -981,7 +981,7 @@ export const CITIES: City[] = [
       "Ultra-modern city known for strict laws and cleanliness",
       "Features Marina Bay with iconic boat-shaped hotel",
       "City-state with Changi Airport consistently rated world's best",
-      "Singapore on the Strait of Malacca with Marina Bay Sands"
+      "Island city-state on the Strait of Malacca with Marina Bay Sands"
     ],
     waterFeature: "Strait of Malacca, Singapore Strait, Marina Bay",
     population: "5.9 million",
@@ -1003,7 +1003,7 @@ export const CITIES: City[] = [
       "Former capital of Byzantine and Ottoman empires for 1,500+ years",
       "The Bosphorus waterway divides the city into European and Asian sides",
       "Turkey's largest city with Hagia Sophia and Blue Mosque",
-      "Istanbul where Europe meets Asia on the Bosphorus Strait"
+      "Turkish megacity where Europe meets Asia on the Bosphorus Strait"
     ],
     waterFeature: "Bosphorus Strait, Golden Horn, Sea of Marmara",
     population: "15.8 million",
@@ -1025,7 +1025,7 @@ export const CITIES: City[] = [
       "Famous for cable cars, steep hills, and tech industry",
       "Iconic orange bridge spans the Golden Gate strait at the bay entrance",
       "Northern California city with Alcatraz Island in the bay",
-      "San Francisco on San Francisco Bay with the Golden Gate Bridge"
+      "California city on a bay with the Golden Gate Bridge"
     ],
     waterFeature: "San Francisco Bay, Pacific Ocean, Golden Gate",
     population: "870,000 (7.7M metro)",
@@ -1047,7 +1047,7 @@ export const CITIES: City[] = [
       "Famous for deep-dish pizza, jazz music, and skyscrapers",
       "The 'Windy City' on Lake Michigan with iconic Navy Pier",
       "Illinois' largest city with Willis Tower (formerly Sears)",
-      "Chicago on Lake Michigan with iconic downtown skyline"
+      "Major US city on Lake Michigan with iconic downtown skyline"
     ],
     waterFeature: "Lake Michigan",
     population: "2.7 million (9.6M metro)",
@@ -1069,7 +1069,7 @@ export const CITIES: City[] = [
       "Known for Art Deco architecture, Cuban culture, and beaches",
       "Cruise capital of the world on the bay and ocean",
       "Florida's second-largest city with South Beach and Little Havana",
-      "Miami on Biscayne Bay with Art Deco District"
+      "Florida city on Biscayne Bay with Art Deco District and beaches"
     ],
     waterFeature: "Biscayne Bay, Atlantic Ocean",
     population: "440,000 (6.1M metro)",
@@ -1091,7 +1091,7 @@ export const CITIES: City[] = [
       "Home to prestigious universities Harvard and MIT nearby",
       "Freedom Trail connects Revolutionary War sites along the harbor",
       "Massachusetts capital where the Tea Party protest occurred in 1773",
-      "Boston on Massachusetts Bay where American Revolution began"
+      "Historic Massachusetts city on a bay where American Revolution began"
     ],
     waterFeature: "Charles River, Boston Harbor, Massachusetts Bay",
     population: "675,000 (4.9M metro)",
@@ -1113,7 +1113,7 @@ export const CITIES: City[] = [
       "Tech hub home to Amazon, Microsoft, and Starbucks headquarters",
       "Famous Space Needle overlooks Elliott Bay and Puget Sound",
       "Washington state's largest city with Pike Place Market",
-      "Seattle on Puget Sound with the Space Needle"
+      "Pacific Northwest city on Puget Sound with the Space Needle"
     ],
     waterFeature: "Puget Sound, Lake Washington, Elliott Bay",
     population: "750,000 (4M metro)",
@@ -1135,7 +1135,7 @@ export const CITIES: City[] = [
       "Once two separate cities: Buda (hilly west) and Pest (flat east)",
       "Chain Bridge and other spans connect the sides across the Danube",
       "Hungary's capital known as the 'Pearl of the Danube'",
-      "Budapest on the Danube River with Parliament Building"
+      "Hungarian capital on the Danube River with Parliament Building"
     ],
     waterFeature: "Danube River",
     population: "1.8 million (3.1M metro)",
@@ -1157,7 +1157,7 @@ export const CITIES: City[] = [
       "Known for colorful historic buildings and excellent design",
       "Connected by 57 bridges spanning waterways throughout the city",
       "Sweden's capital where the Nobel Prize banquet is held annually",
-      "Stockholm - 'Venice of the North' on 14 islands"
+      "Scandinavian capital known as 'Venice of the North' on 14 islands"
     ],
     waterFeature: "Lake Mälaren, Baltic Sea, Stockholm Archipelago",
     population: "980,000 (2.4M metro)",
@@ -1179,7 +1179,7 @@ export const CITIES: City[] = [
       "Oldest city in Western Europe, predating Rome by centuries",
       "Famous for pastel de nata pastries, fado music, and historic trams",
       "Portugal's capital with the Belém Tower on the Tagus estuary",
-      "Lisbon on the Tagus River estuary facing the Atlantic Ocean"
+      "Portuguese capital on the Tagus River estuary facing the Atlantic"
     ],
     waterFeature: "Tagus River, Atlantic Ocean",
     population: "550,000 (2.9M metro)",
@@ -1200,8 +1200,8 @@ export const CITIES: City[] = [
       "Built along the Vltava River with historic bridges",
       "Medieval old town with astronomical clock and Gothic architecture",
       "Charles Bridge spans the Vltava connecting castle to old town",
-      "Czech capital with Prague Castle overlooking the river",
-      "Prague on the Vltava River with Charles Bridge"
+      "Czech capital with a famous castle overlooking the river",
+      "Historic Central European capital on the Vltava River with Charles Bridge"
     ],
     waterFeature: "Vltava River",
     population: "1.3 million (2.7M metro)",
@@ -1219,11 +1219,11 @@ export const CITIES: City[] = [
     difficulty: "medium",
     clues: [
       "Central European capital with imperial history and classical music heritage",
-      "Sits on the Danube River in the Vienna Basin",
+      "Sits on the Danube River in a historic basin",
       "Former seat of the Habsburg Empire with grand palaces",
       "Known for coffee house culture, Sachertorte, and the Danube waltz",
       "Austria's capital ranked #1 for quality of life for many years",
-      "Vienna on the Danube with Schönbrunn Palace and opera houses"
+      "Austrian capital on the Danube with palaces and opera houses"
     ],
     waterFeature: "Danube River",
     population: "1.9 million (2.9M metro)",
@@ -1245,7 +1245,7 @@ export const CITIES: City[] = [
       "Known for tango dancing, beef culture, and European-style architecture",
       "Called the 'Paris of South America' on the wide river estuary",
       "Argentina's capital with colorful La Boca neighborhood",
-      "Buenos Aires on the Río de la Plata estuary"
+      "Argentine capital on the Río de la Plata estuary"
     ],
     waterFeature: "Río de la Plata",
     population: "3 million (15M metro)",
@@ -1267,7 +1267,7 @@ export const CITIES: City[] = [
       "Known for penguins, wine country, and dramatic coastal scenery",
       "Table Mountain overlooks the harbor and two ocean coastlines",
       "South Africa's legislative capital with Robben Island in the bay",
-      "Cape Town where two oceans meet at the Cape of Good Hope"
+      "South African city where two oceans meet at the Cape of Good Hope"
     ],
     waterFeature: "Atlantic Ocean, Table Bay",
     population: "4.7 million",
@@ -1289,7 +1289,7 @@ export const CITIES: City[] = [
       "Consistently ranked among world's most liveable cities",
       "Burrard Inlet and False Creek waterways cut through the city",
       "Canadian west coast city near the U.S. border with Stanley Park",
-      "Vancouver on the Pacific Ocean with mountains meeting the sea"
+      "Canadian Pacific coast city with mountains meeting the sea"
     ],
     waterFeature: "Pacific Ocean, Burrard Inlet, False Creek",
     population: "675,000 (2.6M metro)",
@@ -1310,8 +1310,8 @@ export const CITIES: City[] = [
       "Built along the Han River in a basin surrounded by mountains",
       "Known for K-pop, Korean BBQ, and ultra-fast internet",
       "Han River divides the city into northern and southern districts",
-      "South Korea's capital with Gangnam district and N Seoul Tower",
-      "Seoul on the Han River with palaces and modern skyscrapers"
+      "South Korea's capital with famous Gangnam district and tower",
+      "South Korean capital on the Han River with palaces and modern skyscrapers"
     ],
     waterFeature: "Han River",
     population: "9.7 million (26M metro)",
@@ -1333,7 +1333,7 @@ export const CITIES: City[] = [
       "Birthplace of democracy and Western civilization",
       "Acropolis and Parthenon overlook the city and nearby Saronic Gulf",
       "Greece's capital where philosophy, drama, and democracy began",
-      "Athens near the Aegean Sea with the ancient Acropolis"
+      "Greek capital near the Aegean Sea with the ancient Acropolis"
     ],
     waterFeature: "Aegean Sea, Saronic Gulf",
     population: "3.2 million (3.8M metro)",
@@ -1356,7 +1356,7 @@ export const CITIES: City[] = [
       "Known for coffee culture, street art, and sports events",
       "Yarra River flows through the city into the bay",
       "Australia's cultural capital with laneways and the Australian Open",
-      "Melbourne on Port Phillip Bay with the Yarra River"
+      "Australian cultural capital on Port Phillip Bay with the Yarra River"
     ],
     waterFeature: "Yarra River, Port Phillip Bay",
     population: "5.2 million",
@@ -1378,7 +1378,7 @@ export const CITIES: City[] = [
       "Second-largest French-speaking city after Paris",
       "Named after Mount Royal, the triple-peaked hill at its center",
       "Quebec's largest city known for festivals and bagels",
-      "Montreal on the St. Lawrence River island in Quebec"
+      "Quebec's largest city on the St. Lawrence River island"
     ],
     waterFeature: "St. Lawrence River",
     population: "1.8 million (4.3M metro)",
@@ -1398,9 +1398,9 @@ export const CITIES: City[] = [
       "Southern California coastal city with year-round perfect weather",
       "Located on the Pacific Ocean near the Mexican border",
       "Known for beaches, navy base, and Comic-Con convention",
-      "San Diego Bay is a natural deep-water harbor",
+      "Natural deep-water harbor on the Pacific coast",
       "California's second-largest city with world-famous zoo",
-      "San Diego on the Pacific with Coronado Beach and harbor"
+      "Southern California city on the Pacific with beaches and harbor"
     ],
     waterFeature: "Pacific Ocean, San Diego Bay",
     population: "1.4 million (3.3M metro)",
@@ -1420,9 +1420,9 @@ export const CITIES: City[] = [
       "Historic Scottish capital built on volcanic hills",
       "Coastal city on the Firth of Forth estuary",
       "Famous for medieval Old Town and Georgian New Town",
-      "Edinburgh Castle sits atop an extinct volcano overlooking the firth",
+      "Historic castle sits atop an extinct volcano overlooking the firth",
       "Scotland's capital hosting the world's largest arts festival annually",
-      "Edinburgh on the Firth of Forth with Edinburgh Castle"
+      "Scottish capital on the Firth of Forth with famous castle"
     ],
     waterFeature: "Firth of Forth, North Sea",
     population: "530,000 (900,000 metro)",
@@ -1442,9 +1442,9 @@ export const CITIES: City[] = [
       "Dense Asian city on the South China Sea coast",
       "Special Administrative Region built on islands and peninsulas",
       "One of the world's most vertical cities with iconic skyline",
-      "Victoria Harbour separates Hong Kong Island from Kowloon",
+      "Victoria Harbour separates the island from the Kowloon peninsula",
       "Former British colony known for dim sum and Star Ferry",
-      "Hong Kong on Victoria Harbour with dramatic skyline"
+      "Asian financial hub on Victoria Harbour with dramatic skyline"
     ],
     waterFeature: "Victoria Harbour, South China Sea",
     population: "7.5 million",
@@ -1466,7 +1466,7 @@ export const CITIES: City[] = [
       "Home to prestigious universities Harvard and MIT nearby",
       "Freedom Trail connects Revolutionary War sites along the harbor",
       "Massachusetts capital where the Tea Party protest occurred in 1773",
-      "Boston on Massachusetts Bay where American Revolution began"
+      "Historic Massachusetts city on a bay where American Revolution began"
     ],
     waterFeature: "Charles River, Boston Harbor, Massachusetts Bay",
     population: "675,000 (4.9M metro)",
@@ -1488,7 +1488,7 @@ export const CITIES: City[] = [
       "Tech hub home to Amazon, Microsoft, and Starbucks headquarters",
       "Famous Space Needle overlooks Elliott Bay and Puget Sound",
       "Washington state's largest city with Pike Place Market",
-      "Seattle on Puget Sound with the Space Needle"
+      "Pacific Northwest city on Puget Sound with the Space Needle"
     ],
     waterFeature: "Puget Sound, Lake Washington, Elliott Bay",
     population: "750,000 (4M metro)",
@@ -1506,11 +1506,11 @@ export const CITIES: City[] = [
     difficulty: "medium",
     clues: [
       "Irish capital city on the east coast with mild, rainy climate",
-      "Built where the River Liffey meets Dublin Bay",
+      "Built where a river meets a bay on the Irish Sea",
       "Famous for literary heritage, Guinness, and friendly pubs",
       "Ha'penny Bridge crosses the Liffey in the city center",
       "Ireland's capital and birthplace of James Joyce and Oscar Wilde",
-      "Dublin on the River Liffey flowing into the Irish Sea"
+      "Irish capital on the River Liffey flowing into the Irish Sea"
     ],
     waterFeature: "River Liffey, Dublin Bay, Irish Sea",
     population: "555,000 (1.4M metro)",
@@ -1532,7 +1532,7 @@ export const CITIES: City[] = [
       "Known for Art Deco architecture, Cuban culture, and beaches",
       "Cruise capital of the world on the bay and ocean",
       "Florida's second-largest city with South Beach and Little Havana",
-      "Miami on Biscayne Bay with Art Deco District"
+      "Florida city on Biscayne Bay with Art Deco District and beaches"
     ],
     waterFeature: "Biscayne Bay, Atlantic Ocean",
     population: "440,000 (6.1M metro)",
@@ -1550,11 +1550,11 @@ export const CITIES: City[] = [
     difficulty: "medium",
     clues: [
       "Swiss city known for banking and high quality of life",
-      "Built where Lake Zurich meets the Limmat River",
+      "Built where a lake meets the Limmat River in the Alps",
       "Global financial center with picturesque old town",
       "Limmat River flows from the lake through the historic center",
       "Switzerland's largest city with world-class chocolatiers",
-      "Zurich on Lake Zurich and the Limmat River"
+      "Swiss financial capital on a lake and the Limmat River"
     ],
     waterFeature: "Lake Zurich, Limmat River",
     population: "430,000 (1.5M metro)",
@@ -1580,7 +1580,7 @@ export const CITIES: City[] = [
       "Car-free historic center with Art Nouveau and Baroque architecture",
       "Dragon Bridge and Triple Bridge cross the Ljubljanica",
       "Slovenia's capital named European Green Capital in 2016",
-      "Ljubljana on the Ljubljanica River in Slovenia"
+      "Slovenian capital on a river with medieval castle and bridges"
     ],
     waterFeature: "Ljubljanica River, Sava River",
     population: "295,000 (560,000 metro)",
@@ -1602,7 +1602,7 @@ export const CITIES: City[] = [
       "Powered entirely by geothermal and hydroelectric energy",
       "Faxaflói Bay waterfront with views of mountains and ocean",
       "Iceland's capital with only 130,000 people in the metro area",
-      "Reykjavik on the Atlantic with Northern Lights and hot springs"
+      "World's northernmost capital on the Atlantic with Northern Lights"
     ],
     waterFeature: "Faxaflói Bay, Atlantic Ocean",
     population: "135,000 (235,000 metro)",
@@ -1622,9 +1622,9 @@ export const CITIES: City[] = [
       "Baltic capital city with well-preserved medieval old town",
       "Coastal city on the Gulf of Finland facing north",
       "Former Hanseatic trading city with city walls still intact",
-      "Tallinn Bay harbor has been an important port for centuries",
+      "Historic bay harbor has been an important port for centuries",
       "Estonia's capital and most digitally advanced city in Europe",
-      "Tallinn on the Baltic Sea with medieval UNESCO old town"
+      "Estonian capital on the Baltic Sea with medieval UNESCO old town"
     ],
     waterFeature: "Gulf of Finland, Baltic Sea, Tallinn Bay",
     population: "440,000 (540,000 metro)",
@@ -1646,7 +1646,7 @@ export const CITIES: City[] = [
       "Famous for port wine production in riverside caves",
       "Six bridges span the Douro, including the iconic Dom Luís I Bridge",
       "Portugal's second-largest city with colorful Ribeira district",
-      "Porto on the Douro River where port wine is aged"
+      "Portuguese city on the Douro River where port wine is aged"
     ],
     waterFeature: "Douro River, Atlantic Ocean",
     population: "240,000 (1.7M metro)",
@@ -1668,7 +1668,7 @@ export const CITIES: City[] = [
       "Former Hanseatic League trading post with colorful wooden buildings",
       "Vågen harbor features the famous Bryggen wharf",
       "Norway's second-largest city and gateway to the fjords",
-      "Bergen on the North Sea with Bryggen UNESCO wharf"
+      "Norwegian coastal city on the North Sea with Bryggen UNESCO wharf"
     ],
     waterFeature: "North Sea, Vågen Harbor, Fjords",
     population: "285,000 (440,000 metro)",
@@ -1690,7 +1690,7 @@ export const CITIES: City[] = [
       "Canals wind through the remarkably preserved medieval center",
       "Historic trading city connected to the North Sea via waterways",
       "Belgian city famous for chocolate, beer, and cobblestone streets",
-      "Bruges with canals, medieval buildings, and the Belfry tower"
+      "Medieval Belgian city with canals and the iconic Belfry tower"
     ],
     waterFeature: "Canal network, North Sea connection",
     population: "120,000",
@@ -1712,7 +1712,7 @@ export const CITIES: City[] = [
       "Medieval maritime republic and trading power",
       "Adriatic coastal city used as King's Landing filming location",
       "Croatian city called the 'Pearl of the Adriatic'",
-      "Dubrovnik on the Adriatic Sea with medieval walls"
+      "Croatian pearl of the Adriatic Sea with medieval walls"
     ],
     waterFeature: "Adriatic Sea",
     population: "42,000",
@@ -1734,7 +1734,7 @@ export const CITIES: City[] = [
       "Famous for bustling souks, riads, and ochre-colored buildings",
       "Red sandstone buildings earned it the nickname 'Red City'",
       "Morocco's fourth-largest city with Jemaa el-Fnaa square",
-      "Marrakech with medina, souks, and Koutoubia Mosque"
+      "Moroccan red city with historic medina, souks, and Koutoubia Mosque"
     ],
     waterFeature: "Tensift River (seasonal), Mountain springs",
     population: "930,000 (1.3M metro)",
@@ -1756,7 +1756,7 @@ export const CITIES: City[] = [
       "Former imperial capital for over 1,000 years",
       "Famous for over 2,000 temples, shrines, and traditional geisha districts",
       "Japan's cultural heart with bamboo groves and zen gardens",
-      "Kyoto on the Kamo River with Fushimi Inari and golden temples"
+      "Ancient Japanese capital on the Kamo River with Fushimi Inari and golden temples"
     ],
     waterFeature: "Kamo River, Katsura River",
     population: "1.5 million",
@@ -1776,9 +1776,9 @@ export const CITIES: City[] = [
       "Caribbean capital city with Spanish colonial architecture",
       "Located on a natural harbor on the Gulf of Mexico coast",
       "Famous for vintage American cars, cigars, and salsa music",
-      "Havana Harbor was a strategic Spanish colonial port",
+      "Historic harbor was a strategic Spanish colonial port",
       "Cuba's capital with colorful old town and Malecón waterfront",
-      "Havana on the Caribbean with classic cars and colonial architecture"
+      "Cuban capital on the Caribbean with classic cars and colonial architecture"
     ],
     waterFeature: "Havana Harbor, Gulf of Mexico, Caribbean Sea",
     population: "2.1 million",
@@ -1800,7 +1800,7 @@ export const CITIES: City[] = [
       "Birthplace of Wolfgang Amadeus Mozart",
       "Historic old town lies on both banks of the Salzach River",
       "Austrian city famous for 'The Sound of Music' and baroque architecture",
-      "Salzburg on the Salzach River with Hohensalzburg Fortress"
+      "Mozart's birthplace on the Salzach River with massive hilltop fortress"
     ],
     waterFeature: "Salzach River",
     population: "155,000",
@@ -1818,11 +1818,11 @@ export const CITIES: City[] = [
     difficulty: "hard",
     clues: [
       "Swiss city known for international diplomacy and banking",
-      "Located where the Rhône River exits Lake Geneva",
+      "Located where the Rhône River exits a major Alpine lake",
       "Home to UN headquarters and Red Cross",
       "Famous Jet d'Eau fountain shoots water 140m high in the lake",
       "Swiss city on Europe's largest Alpine lake",
-      "Geneva on Lake Geneva where the Rhône begins"
+      "Swiss city on a large Alpine lake where the Rhône begins"
     ],
     waterFeature: "Lake Geneva, Rhône River",
     population: "200,000 (500,000 metro)",
@@ -1844,7 +1844,7 @@ export const CITIES: City[] = [
       "Known for pebble beaches, Promenade des Anglais, and Old Town",
       "Azure blue waters of the Baie des Anges waterfront",
       "French city popular with artists and wealthy vacationers",
-      "Nice on the French Riviera with the Mediterranean"
+      "French Riviera resort city on the Mediterranean with azure waters"
     ],
     waterFeature: "Mediterranean Sea, Baie des Anges",
     population: "340,000 (1M metro)",
@@ -1866,7 +1866,7 @@ export const CITIES: City[] = [
       "Birthplace of the Renaissance with incredible art and architecture",
       "Ponte Vecchio medieval bridge crosses the Arno",
       "Italian city with the Uffizi Gallery and Michelangelo's David",
-      "Florence on the Arno River - cradle of the Renaissance"
+      "Renaissance Italian city on the Arno River - birthplace of the Renaissance"
     ],
     waterFeature: "Arno River",
     population: "380,000 (1M metro)",
@@ -1884,11 +1884,11 @@ export const CITIES: City[] = [
     difficulty: "hard",
     clues: [
       "Ancient Italian port city with active volcano nearby",
-      "Located on the Bay of Naples on the Mediterranean coast",
+      "Located on a bay on the Mediterranean coast near an active volcano",
       "Known for pizza invention, Pompeii ruins, and Mount Vesuvius",
       "Historic port on the bay with islands of Capri and Ischia offshore",
       "Southern Italian city where pizza was invented",
-      "Naples on the Bay of Naples with Mount Vesuvius looming"
+      "Southern Italian port city on a bay with Mount Vesuvius looming"
     ],
     waterFeature: "Bay of Naples, Mediterranean Sea, Tyrrhenian Sea",
     population: "960,000 (3.1M metro)",
@@ -1910,7 +1910,7 @@ export const CITIES: City[] = [
       "Medieval old town with Europe's largest market square",
       "Vistula River winds through this former Polish capital",
       "Polish city with Wawel Castle and well-preserved old town",
-      "Krakow on the Vistula River with medieval architecture"
+      "Historic Polish city on the Vistula River with well-preserved medieval architecture"
     ],
     waterFeature: "Vistula River",
     population: "780,000 (1.8M metro)",
@@ -1932,7 +1932,7 @@ export const CITIES: City[] = [
       "Known for flamenco dancing, tapas, and historic architecture",
       "Guadalquivir River is Spain's only navigable river",
       "Spanish city with the Alcázar palace and Gothic cathedral",
-      "Seville on the Guadalquivir River with Moorish palaces"
+      "Andalusian capital on the Guadalquivir River with Moorish palaces"
     ],
     waterFeature: "Guadalquivir River",
     population: "690,000 (1.5M metro)",
@@ -1954,7 +1954,7 @@ export const CITIES: City[] = [
       "Known for paella, City of Arts and Sciences, and oranges",
       "Former Turia riverbed converted into urban park",
       "Spain's third-largest city famous for Las Fallas festival",
-      "Valencia on the Mediterranean where paella was invented"
+      "Spanish Mediterranean city where paella was invented"
     ],
     waterFeature: "Mediterranean Sea, Turia River (former riverbed)",
     population: "800,000 (1.8M metro)",
@@ -1976,7 +1976,7 @@ export const CITIES: City[] = [
       "Famous for port wine production in riverside caves",
       "Six bridges span the Douro, including iconic Dom Luís I Bridge",
       "Portugal's second-largest city with colorful Ribeira district",
-      "Porto on the Douro River where port wine is aged"
+      "Portuguese city on the Douro River where port wine is aged"
     ],
     waterFeature: "Douro River, Atlantic Ocean",
     population: "240,000 (1.7M metro)",
@@ -1998,7 +1998,7 @@ export const CITIES: City[] = [
       "Known as the gastronomic capital of France",
       "Renaissance old town between two rivers",
       "France's third-largest city famous for silk and cuisine",
-      "Lyon at the confluence of the Rhône and Saône"
+      "French gastronomic capital at the confluence of the Rhône and Saône"
     ],
     waterFeature: "Rhône River, Saône River",
     population: "520,000 (2.3M metro)",
@@ -2020,7 +2020,7 @@ export const CITIES: City[] = [
       "France's oldest city founded by Greeks 2,600 years ago",
       "Old Port (Vieux-Port) has been the harbor for millennia",
       "France's second-largest city known for bouillabaisse",
-      "Marseille on the Mediterranean - France's oldest city"
+      "France's oldest city on the Mediterranean with ancient Greek origins"
     ],
     waterFeature: "Mediterranean Sea, Old Port (Vieux-Port)",
     population: "870,000 (1.9M metro)",
@@ -2042,7 +2042,7 @@ export const CITIES: City[] = [
       "Known for world-class vineyards and 18th-century architecture",
       "Port of the Moon where Garonne forms a crescent",
       "French city with UNESCO-listed wine region",
-      "Bordeaux on the Garonne River - world wine capital"
+      "French wine capital on the Garonne River"
     ],
     waterFeature: "Garonne River",
     population: "260,000 (1.3M metro)",
@@ -2064,7 +2064,7 @@ export const CITIES: City[] = [
       "World's diamond trading capital and major port",
       "Historic port on the Scheldt handles massive cargo volumes",
       "Belgian city with Rubens House and diamond district",
-      "Antwerp on the Scheldt River - diamond capital"
+      "Belgian port city on the Scheldt River - world's diamond trading capital"
     ],
     waterFeature: "Scheldt River, North Sea",
     population: "530,000 (1.2M metro)",
@@ -2086,7 +2086,7 @@ export const CITIES: City[] = [
       "Known for canals, seafood, and Volvo headquarters",
       "Sweden's largest non-capital city with extensive waterfront",
       "Scandinavian city famous for archipelago and seafood",
-      "Gothenburg on Sweden's west coast with canals"
+      "Swedish west coast city with Dutch-inspired canals"
     ],
     waterFeature: "Göta älv River, North Sea, Gothenburg Archipelago",
     population: "580,000 (1M metro)",
@@ -2108,7 +2108,7 @@ export const CITIES: City[] = [
       "Known for one of Europe's largest medieval old towns",
       "Rivers meet in this historic Lithuanian capital",
       "Easternmost Baltic capital with UNESCO old town",
-      "Vilnius at the confluence of two rivers in Lithuania"
+      "Lithuanian capital at the confluence of two rivers"
     ],
     waterFeature: "Neris River, Vilnia River",
     population: "590,000",
@@ -2125,12 +2125,12 @@ export const CITIES: City[] = [
     country: "Latvia",
     difficulty: "hard",
     clues: [
-      "Baltic capital on the Gulf of Riga",
+      "Baltic capital on a gulf and major river",
       "Built where the Daugava River meets the Baltic Sea",
       "Known for Art Nouveau architecture and medieval old town",
       "Historic port city on the river and gulf",
       "Largest Baltic capital with UNESCO old town",
-      "Riga on the Daugava River and Baltic Sea"
+      "Latvian capital on the Daugava River and Baltic Sea"
     ],
     waterFeature: "Daugava River, Gulf of Riga, Baltic Sea",
     population: "630,000 (1M metro)",
@@ -2152,7 +2152,7 @@ export const CITIES: City[] = [
       "Built along the Danube River near three-country border",
       "Medieval castle overlooks the Danube",
       "Slovakia's capital and largest city",
-      "Bratislava on the Danube - only capital bordering 2 countries"
+      "Slovak capital on the Danube - only capital bordering 2 countries"
     ],
     waterFeature: "Danube River",
     population: "440,000 (660,000 metro)",
@@ -2174,7 +2174,7 @@ export const CITIES: City[] = [
       "Known for Diocletian's Palace at the waterfront",
       "Adriatic port city with islands offshore",
       "Croatia's second-largest city with Roman ruins",
-      "Split on the Adriatic - city built in a palace"
+      "Croatian Adriatic city literally built inside a Roman palace"
     ],
     waterFeature: "Adriatic Sea",
     population: "180,000 (350,000 metro)",
@@ -2196,7 +2196,7 @@ export const CITIES: City[] = [
       "Known for amber trade and shipyard history",
       "Baltic port where WWII began and Solidarity movement started",
       "Polish city rebuilt after WWII destruction",
-      "Gdansk on the Baltic - birthplace of Solidarity"
+      "Polish Baltic port city - birthplace of Solidarity movement"
     ],
     waterFeature: "Baltic Sea, Motlawa River, Vistula River",
     population: "470,000 (1.2M metro)",
