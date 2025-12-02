@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import type { GameState, City } from './types';
 import { getDailyCity, loadGameState, saveGameState, isNewDay, updateStats, getPuzzleNumber, saveArchivePuzzleState } from './utils/storage';
+import { initGA, trackPageView, trackGameStart, trackGameComplete, trackGuess, trackShare, trackStatsView, trackArchiveView } from './utils/analytics';
 import Header from './components/Header';
 import ClueDisplay from './components/ClueDisplay';
 import GuessInput from './components/GuessInput';
@@ -34,6 +35,10 @@ function App() {
   const [archivePuzzleNumber, setArchivePuzzleNumber] = useState<number | null>(null);
 
   useEffect(() => {
+    // Initialize Google Analytics
+    initGA();
+    trackPageView(window.location.pathname);
+
     // Check for test mode in URL
     const urlParams = new URLSearchParams(window.location.search);
     const testParam = urlParams.get('test');
@@ -58,6 +63,9 @@ function App() {
 
       if (shouldStartNewGame) {
         const dailyCity = getDailyCity();
+        
+        // Track game start
+        trackGameStart(dailyCity.name);
         
         const newState: GameState = {
           targetCity: dailyCity,
@@ -101,6 +109,9 @@ function App() {
     const newGuesses = [...gameState.guesses, guessName];
     const isComplete = isCorrect || newGuesses.length >= MAX_GUESSES;
 
+    // Track the guess
+    trackGuess(isCorrect, newGuesses.length);
+
     const newState: GameState = {
       ...gameState,
       guesses: newGuesses,
@@ -109,6 +120,9 @@ function App() {
     };
 
     if (isComplete && !archiveMode) {
+      // Track game completion
+      trackGameComplete(isCorrect, newGuesses.length, gameState.targetCity.name);
+      
       updateStats(isCorrect, newGuesses.length);
       
       const stats = JSON.parse(localStorage.getItem('dailycityguess-stats') || '{}');
@@ -207,8 +221,15 @@ function App() {
             guessCount={gameState.guesses.length}
             puzzleNumber={getPuzzleNumber()}
             guesses={gameState.guesses}
-            onStatsClick={() => setShowStats(true)}
-            onArchiveClick={() => setShowArchive(true)}
+            onStatsClick={() => {
+              trackStatsView();
+              setShowStats(true);
+            }}
+            onArchiveClick={() => {
+              trackArchiveView();
+              setShowArchive(true);
+            }}
+            onShare={() => trackShare()}
           />
         )}
 

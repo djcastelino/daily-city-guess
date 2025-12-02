@@ -10,11 +10,17 @@ interface GameOverProps {
   guesses: string[];
   onStatsClick: () => void;
   onArchiveClick: () => void;
+  onShare?: () => void;
 }
 
-export default function GameOver({ isWon, city, guessCount, puzzleNumber, guesses, onStatsClick, onArchiveClick }: GameOverProps) {
+export default function GameOver({ isWon, city, guessCount, puzzleNumber, guesses, onStatsClick, onArchiveClick, onShare }: GameOverProps) {
   const handleShare = () => {
     const shareText = generateShareText(isWon, guesses, puzzleNumber);
+    
+    // Track share event
+    if (onShare) {
+      onShare();
+    }
     
     if (navigator.share) {
       navigator.share({
