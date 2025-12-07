@@ -1,6 +1,6 @@
 import ReactGA from 'react-ga4';
 
-const MEASUREMENT_ID = 'G-WYK1GFDP75';
+const MEASUREMENT_ID = 'G-JE60Y6WYH8';
 
 // Initialize Google Analytics
 export const initGA = () => {
@@ -75,4 +75,5 @@ export const trackCityView = (cityName: string, difficulty: string) => {
     value: difficulty === 'easy' ? 1 : difficulty === 'medium' ? 2 : 3,
   });
 };
+
 
